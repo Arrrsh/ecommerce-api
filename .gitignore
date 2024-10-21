@@ -1,0 +1,38 @@
+# Ignore __pycache__ directories
+__pycache__/
+
+# Ignore Python bytecode files
+*.pyc
+
+# Virtual environment
+venv/
+.env
+*.env
+
+# Logs
+logs/
+*.log
+
+# SQLite database files
+*.sqlite3
+*.db
+
+# Test and coverage reports
+.coverage
+*.cover
+*.nosetests.xml
+*.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+*.hypothesis/
+.pytest_cache/
+
+# IDE files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
